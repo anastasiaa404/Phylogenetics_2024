@@ -13,7 +13,7 @@ These results are approximate because many other factors were not taken into acc
 
 ## 3. Estimating the separation time and branching order of the Neanderthal and Denisovan populations.
 Using the same method as for mitochondrial Eve, I calculated the age of the most recent common ancestor of modern humans and Neanderthal. Here are the results:
-- Evolutionary distance between Neanderthals and Denisovans: 0.027373280700000002.
 - Number of mutations between Neanderthal and Denisovan: 362.
 - Estimated time of separation between Neanderthals and Denisovans: 543000 years.
+
 Compared to information from the internet, the result is not quite, but similar to the truth. 
