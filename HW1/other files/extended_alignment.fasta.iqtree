@@ -1,0 +1,217 @@
+IQ-TREE 2.3.6 built Aug  4 2024
+
+Input file name: /content/extended_alignment.fasta
+Type of analysis: tree reconstruction
+Random seed number: 705656
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 53 sequences with 16592 nucleotide sites
+Number of constant sites: 15664 (= 94.4069% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 15664 (= 94.4069% of all sites)
+Number of parsimony informative sites: 618
+Number of distinct site patterns: 476
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TN+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 54.1635
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 33.6908
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3088
+  pi(C) = 0.3127
+  pi(G) = 0.1313
+  pi(T) = 0.2472
+
+Rate matrix Q:
+
+  A     -0.76   0.03099    0.7045   0.02449
+  C    0.0306   -0.8686   0.01301     0.825
+  G     1.657   0.03099    -1.713   0.02449
+  T    0.0306     1.044   0.01301    -1.088
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.8367
+Gamma shape alpha: 1.201
+
+ Category  Relative_rate  Proportion
+  0         0              0.8367
+  1         1.074          0.04081
+  2         3.246          0.04081
+  3         6.289          0.04081
+  4         13.89          0.04081
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -30988.6668 (s.e. 298.3065)
+Unconstrained log-likelihood (without tree): -29960.2351
+Number of free parameters (#branches + #model parameters): 110
+Akaike information criterion (AIC) score: 62197.3337
+Corrected Akaike information criterion (AICc) score: 62198.8154
+Bayesian information criterion (BIC) score: 63046.1680
+
+Total tree length (sum of branch lengths): 0.0835
+Sum of internal branch lengths: 0.0475 (56.8809% of tree length)
+
+WARNING: 12 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'FN673705.1' is drawn at root
+
+                                                                                  +--JQ247408.1
+                                                                               +--|
+                                                                               |  +--KX459697.1
+                                                                            +**| (100)
+                                                                            |  +--JN084084.1
+                                                                         +**| (6)
+                                                                         |  |     +--HM453712.1
+                                                                         |  |  +--| (98)
+                                                                         |  |  |  +--HM448049.1
+                                                                         |  +--| (76)
+                                                                         |     |  +--KU508374.1
+                                                                         |     +--| (100)
+                                                                         |        +--KY934478.1
+                                                                      +--| (8)
+                                                                      |  |              +--KY934476.1
+                                                                      |  |           +--| (88)
+                                                                      |  |           |  +--KY077676.1
+                                                                      |  |        +**| (65)
+                                                                      |  |        |  +--KP340170.1
+                                                                      |  |     +--| (91)
+                                                                      |  |     |  |  +--JF343123.1
+                                                                      |  |     |  +--| (99)
+                                                                      |  |     |     +--KY496869.1
+                                                                      |  |  +**| (80)
+                                                                      |  |  |  |        +--KY303770.1
+                                                                      |  |  |  |     +**| (90)
+                                                                      |  |  |  |     |  |     +--JF837819.1
+                                                                      |  |  |  |     |  |  +--| (100)
+                                                                      |  |  |  |     |  |  |  |  +--KX440315.1
+                                                                      |  |  |  |     |  |  |  +--| (98)
+                                                                      |  |  |  |     |  |  |     +--JN419195.1
+                                                                      |  |  |  |     |  +--| (96)
+                                                                      |  |  |  |     |     |  +--HQ914447.1
+                                                                      |  |  |  |     |     +--| (100)
+                                                                      |  |  |  |     |        |  +--KX440262.1
+                                                                      |  |  |  |     |        +--| (97)
+                                                                      |  |  |  |     |           +--KX440275.1
+                                                                      |  |  |  |  +**| (61)
+                                                                      |  |  |  |  |  |     +--KT698008.1
+                                                                      |  |  |  |  |  |  +--| (100)
+                                                                      |  |  |  |  |  |  |  +--HQ189135.1
+                                                                      |  |  |  |  |  +--| (95)
+                                                                      |  |  |  |  |     |  +--HM804485.1
+                                                                      |  |  |  |  |     +--| (77)
+                                                                      |  |  |  |  |        +--KT698006.1
+                                                                      |  |  |  +**| (75)
+                                                                      |  |  |     |     +--KP172434.1
+                                                                      |  |  |     |  +--| (96)
+                                                                      |  |  |     |  |  +--JF499899.1
+                                                                      |  |  |     +--| (83)
+                                                                      |  |  |        +--KY686210.1
+                                                                      |  +--| (81)
+                                                                      |     |  +--HQ259121.1
+                                                                      |     +--| (98)
+                                                                      |        +--KU521454.1
+                                                                   +**| (54)
+                                                                   |  |  +**KU521494.1
+                                                                   |  +--| (100)
+                                                                   |     +--KU521491.1
+                                                                +--| (63)
+                                                                |  |     +--KY348642.1
+                                                                |  |  +--| (100)
+                                                                |  |  |  |  +--GU590993.1
+                                                                |  |  |  +**| (75)
+                                                                |  |  |     +--KY369152.2
+                                                                |  +--| (99)
+                                                                |     +--KM986616.1
+                                                             +**| (97)
+                                                             |  |        +--KP172432.1
+                                                             |  |     +--| (99)
+                                                             |  |     |  +--JN084079.1
+                                                             |  |  +--| (95)
+                                                             |  |  |  +--KY686209.1
+                                                             |  +--| (98)
+                                                             |     |  +--KM986625.1
+                                                             |     +**| (86)
+                                                             |        |  +--KP017255.1
+                                                             |        +--| (100)
+                                                             |           +--JF811749.1
+                                                          +--| (87)
+                                                          |  +--KT819263.1
+                                                       +--| (95)
+                                                       |  +--KM986608.1
+                                                    +--| (98)
+                                                    |  |  +--KR135883.1
+                                                    |  +--| (97)
+                                                    |     +--KR135861.1
+                                           +--------|
+                                           |        +----FJ713601.1
+       +-----------------------------------|
+       |                                   |          +**KX198087.1
+       |                                   +----------|
+       |                                              |        +**KX198086.1
+       |                                              |     +**|
+       |                                              |     |  +**KX198085.1
+       |                                              |  +--|
+       |                                              |  |  +**KX198084.1
+       |                                              +--|
+       |                                                 +--KX198088.1
++------|
+|      +--KT780370.1
+|
++--FN673705.1
+|
++**FR695060.1
+
+Tree in newick format:
+
+((((((((((((((JQ247408.1:0.0009924683,KX459697.1:0.0003641123):0.0006179534,JN084084.1:0.0009233420)100:0.0000010069,((HM453712.1:0.0003729291,HM448049.1:0.0007394958)98:0.0004956624,(KU508374.1:0.0003091035,KY934478.1:0.0004295179)100:0.0009317956)76:0.0000618263)6:0.0000028721,(((((KY934476.1:0.0004291236,KY077676.1:0.0001854872)88:0.0001219044,KP340170.1:0.0004908170)65:0.0000010069,(JF343123.1:0.0003068746,KY496869.1:0.0004300377)99:0.0003676246)91:0.0001834675,(((KY303770.1:0.0010491151,((JF837819.1:0.0004302091,(KX440315.1:0.0003070730,JN419195.1:0.0002454195)98:0.0002473124)100:0.0006191031,(HQ914447.1:0.0007261039,(KX440262.1:0.0009123897,KX440275.1:0.0005094333)97:0.0002421564)100:0.0004439104)96:0.0001873613)90:0.0000599172,((KT698008.1:0.0007401373,HQ189135.1:0.0004296490)100:0.0005974457,(HM804485.1:0.0009013907,KT698006.1:0.0014235379)77:0.0001040278)95:0.0002046608)61:0.0000010069,((KP172434.1:0.0011164375,JF499899.1:0.0006178510)96:0.0003105695,KY686210.1:0.0012370142)83:0.0000624268)75:0.0000010069)80:0.0000599864,(HQ259121.1:0.0008702266,KU521454.1:0.0009310181)98:0.0003038645)81:0.0001221779)8:0.0000609688,(KU521494.1:0.0000010069,KU521491.1:0.0001224665)100:0.0010454816)54:0.0000028880,((KY348642.1:0.0008012021,(GU590993.1:0.0004291150,KY369152.2:0.0003674967)75:0.0000028721)100:0.0004321868,KM986616.1:0.0008676762)99:0.0004283158)63:0.0002446633,(((KP172432.1:0.0008015316,JN084079.1:0.0005595038)99:0.0003716889,KY686209.1:0.0008606277)95:0.0000625561,(KM986625.1:0.0011738027,(KP017255.1:0.0005540408,JF811749.1:0.0007403188)100:0.0006221967)86:0.0000600282)98:0.0002451510)97:0.0000590877,KT819263.1:0.0007381338)87:0.0002089685,KM986608.1:0.0013403976)95:0.0003868091,(KR135883.1:0.0010793704,KR135861.1:0.0021365178)97:0.0004375090)98:0.0007430111,FJ713601.1:0.0027460977):0.0052209043,(KX198087.1:0.0000229421,(((KX198086.1:0.0000010069,KX198085.1:0.0000010069):0.0000010069,KX198084.1:0.0000010069):0.0004897900,KX198088.1:0.0003691495):0.0002842490):0.0062465098):0.0198463252,KT780370.1:0.0012604942):0.0041368077,FN673705.1:0.0001217242,FR695060.1:0.0000010069);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /content/extended_alignment.fasta.treefile -m "TN{54.1635,33.6908}+F{0.308836,0.312735,0.131274,0.247154}+I{0.836743}+G4{1.20127}" --length 16592
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /content/extended_alignment.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /content/extended_alignment.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Sep 26 19:48:54 2024
+Total CPU time used: 23.8614 seconds (0h:0m:23s)
+Total wall-clock time used: 24.4741 seconds (0h:0m:24s)
+
