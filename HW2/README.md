@@ -1,51 +1,47 @@
-# HW2 Филогенетический анализ Sirenia: оценка родственных связей между ламантинами и дюгонями на основе митохондриального генома
+# HW2 Phylogenetic Analysis of Sirenia: Assessing the Relatedness between Manatees and Dugongs Based on the Mitochondrial Genome
 
-- В своем работе я проводила анализ митохондриальных геномов нескольких представителей отряда Сирены: ламантины, дюгони и морские коровы, с целью выяснить эволюционные связи между ними.
-  
+- In this work, I conducted an analysis of the mitochondrial genomes of several members of the order Sirenia—manatees, dugongs, and Steller's sea cows—to elucidate their evolutionary relationships.
+
 ![Sirenia_Diversity](https://github.com/user-attachments/assets/3018dc4d-12f6-4f54-8455-3834bcbe3627)
 
-**1-й ряд:** американский ламантин, африканский ламантин;
+**Row 1:** American manatee, African manatee  
+**Row 2:** Amazonian manatee, Steller’s sea cow  
+**Row 3:** Dugong
 
-**2-й ряд:** амазонский ламантин, стеллерова (морская) корова;
+# Hypothesis:
+- The evolutionary divergence of manatees and dugongs from a common ancestor is associated with their adaptation to different ecological environments, as reflected in their mitochondrial genomes. Comparing these genomes will clarify their phylogenetic relationships.
 
-**3-й ряд:** дюгонь.
+---
 
-# Гипотеза:
-- Эволюционное разделение ламантинов и дюгоней, произошедших от общего предка, связано с их адаптацией к различным экологическим условиям, что отражается в их митохондриальных геномах. Сравнение этих геномов позволит прояснит их филогенетические связи.
-  
-  ---
+- Manatees and dugongs are closely related marine mammals of the order Sirenia that, despite their physical similarity and shared ancestry, have evolved differently and now inhabit distinct environments. Manatees primarily dwell in freshwater and brackish waters (e.g., rivers and coastal bays), while dugongs live exclusively in marine environments, particularly in the warm waters of the Indian and Pacific Oceans. Their diets also differ: manatees feed on aquatic plants typical of freshwater ecosystems, whereas dugongs feed on seagrasses in shallow marine areas.
 
-- Ламантины и дюгони — это близкородственные морские млекопитающие отряда Сирены, которые, несмотря на внешнее сходство и происхождение от общего предка, эволюционировали по-разному и теперь обитают в разных средах. Ламантины преимущественно обитают в пресных и солоноватых водах (например, в реках и прибрежных заливах), тогда как дюгони живут исключительно в морской воде, в тёплых зонах Индийского и Тихого океанов. Их рацион также отличается: ламантины питаются водными растениями, характерными для пресноводных экосистем, а дюгони питаются морскими травами на мелководьях.
+- These differences in habitat and diet reflect their adaptive evolutionary changes. By comparing the mitochondrial genomes of manatees and dugongs, we can analyze how these species have diverged phylogenetically and identify genetic changes linked to their adaptations to different ecological conditions.
 
-- Эти различия в среде обитания и питании отражают их адаптационные эволюционные изменения. Сравнение митохондриальных геномов ламантинов и дюгоней позволяет проанализировать, как именно эти виды разошлись филогенетически, и понять, какие генетические изменения связаны с их адаптацией к различным экологическим условиям.
+# Materials and Methods:
+- This study used mitochondrial genomes from members of the order Sirenia, including three manatee species (Trichechus manatus, Trichechus senegalensis, Trichechus inunguis), the dugong (Dugong dugon), and the extinct Steller's sea cow (Hydrodamalis gigas).
+- Multiple sequence alignment was performed using **MAFFT**.
+- To determine the optimal evolutionary model, **IQ-TREE** was used, and the HKY+F+I model was selected as the best fit for this dataset.
+- A phylogenetic tree was constructed from the aligned sequences with bootstrap support (1000 iterations) to ensure reliability.
+- Mitochondrial genomes of the African elephant (Loxodonta africana) and forest elephant (Loxodonta cyclotis) served as the **outgroup** to clarify the placement of Sirenia in the phylogenetic tree and highlight relationships among the Sirenia species.
+- **iTOL** was used to visualize the resulting tree.
 
-# Материалы и методы:
-- В исследовании использованы митохондриальные геномы представителей отряда Сирены, включая три вида ламантинов (Trichechus manatus, Trichechus senegalensis, Trichechus inunguis), дюгоня (Dugong dugon) и вымершую морскую корову Стеллера (Hydrodamalis gigas).
-- Множественное выравнивание последовательностей было выполнено с помощью программы **MAFFT**.
-- Для оценки наилучшей модели эволюции использовалась программа **IQ-TREE**, и по результатам тестирования была выбрана модель HKY+F+I как наилучшая для данного набора данных.
-- На основе выровненных последовательностей построено филогенетическое дерево с применением бутстреп-оценки (1000 итераций) для повышения надежности.
-- В качестве **аутогруппы** использованы митохондриальные геномы африканского слона (Loxodonta africana) и лесного слона (Loxodonta cyclotis) для уточнения положения сирен на филогенетическом дереве и выделения родственных связей между видами.
-- Для визуализации полученного дерева использовался **iTOL**.
+# Phylogenetic Tree:
+![Screenshot_2024-10-28_194509](https://github.com/user-attachments/assets/7faec4a9-060b-4a78-96af-0f1afc6cf43a)
 
-# Филогенетическое дерево:
-![Снимок экрана 2024-10-28 194509](https://github.com/user-attachments/assets/7faec4a9-060b-4a78-96af-0f1afc6cf43a)
+- **Analysis of the Phylogenetic Tree:**
+  1. **Outgroup:** The African elephants (Loxodonta africana and Loxodonta cyclotis) are clearly separated as the outgroup, consistent with their evolutionary distance from the Sirenia members.
+  2. **Relatedness among Manatees:** The branches of the three manatee species (Trichechus manatus, Trichechus senegalensis, and Trichechus inunguis) group together, indicating closer relatedness to each other than to dugongs or Steller’s sea cow. High bootstrap values within the manatee clade (72% and 100%) strengthen the confidence in their placement.
+  3. **Dugongs and Steller’s Sea Cow:** Dugong dugon and Hydrodamalis gigas form a distinct clade, suggesting closer relatedness between them. Bootstrap values of 100% on their branches reinforce high confidence in their phylogenetic position. This finding aligns with existing knowledge of their evolutionary origins, as both species belong to the Dugongidae family and share a common ancestor, as also supported by their marine habitat.
+  4. **Dugongs as a Distinct Group:** The branches of different Dugong dugon sequences show significant support, confirming the stability of this group within the tree. Bootstrap values (e.g., 48%) demonstrate varying levels of divergence within the group, potentially indicating population diversity within the species or differences in the sequences used for the analysis.
 
-- **Анализ филогенетического дерева:**
-  1. **Аутогруппа:** Африканские слоны (Loxodonta africana и Loxodonta cyclotis) выделены как аутогруппа, что соответствует их эволюционному удалению от представителей отряда Сирены.
-  2. **Родственные связи между ламантинами:** Ветви трех видов ламантинов (Trichechus manatus, Trichechus senegalensis и Trichechus inunguis) группируются вместе, что указывает на их более тесное родство между собой по сравнению с дюгонями и морской коровой Стеллера. При этом внутри клады ламантинов наблюдаются высокие значения бутстреп-поддержки (72% и 100%), что повышает уверенность в правильности расположения этих ветвей.
-  3. **Дюгони и морская корова Стеллера:** Dugong dugon и Hydrodamalis gigas образуют отдельную кладистическую группу, что свидетельствует о более близком родстве между ними. Бутстреп-значения в 100% на их ветвях подтверждают высокую уверенность в их филогенетическом положении. Это согласуется с известными данными об их эволюционном происхождении — оба вида относятся к семейству Dugongidae и разделяют общего предка, что также подтверждается их морской средой обитания.
-  4. **Дюгони как отдельная группа:** Ветви разных последовательностей Dugong dugon показывают значительную поддержку, подтверждая стабильность этой группы на дереве. Уровни бутстреп-поддержки (например, 48%) демонстрируют различные степени дивергенции внутри этой группы, что может указывать на возможное разнообразие популяций внутри вида или различия в последовательностях, используемых для анализа.
+---
 
- ---
+Thus, the phylogenetic tree supports the hypothesis of evolutionary divergence between manatees and dugongs. Manatees and dugongs share a common ancestor but have evolved into separate branches, associated with their adaptation to distinct habitats (marine versus freshwater environments) and feeding behaviors.
 
-Таким образом, филогенетическое дерево подтверждает гипотезу о наличии эволюционного расхождения между ламантинами и дюгонями. Ламантины и дюгони имеют общего предка, но эволюционно разошлись в разные ветви, что связано с их адаптацией к разным условиям обитания (морская и пресноводная среда) и особенностями питания.
-
-# Филогенетическое дерево из другой статьи:
+# Phylogenetic Tree from Another Study:
 ![41598_2021_82390_Fig3_HTML](https://github.com/user-attachments/assets/640e4ade-fdd6-4184-b0fd-0d144dd4476f)
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC7878490/
-- Из этой статьи были использованы три образца ламантинов, для построения моего и сравнения результатов: Trichechus_inunguis_MW073826.1.fasta, Trichechus_senegalensis_MW073827.1.fasta, Trichechus_manatus_MW073828.1.fasta.
-- Как и на моем дереве, можно наблюдать сходную структураъу клады ламантинов и близкое родство ламантинов и дюгоней.
+- From this article, three manatee samples were used for tree construction and comparison: Trichechus_inunguis_MW073826.1.fasta, Trichechus_senegalensis_MW073827.1.fasta, Trichechus_manatus_MW073828.1.fasta.
+- As in my tree, a similar structure of the manatee clade and the close relationship between manatees and dugongs can be observed.
 
-# Выводы:
-В ходе моей работы был проведен филогенетический анализ митохондриальных геномов представителей отряда Сирены, включая три вида ламантинов (Trichechus manatus, Trichechus senegalensis, Trichechus inunguis), дюгоня (Dugong dugon) и вымершую морскую корову Стеллера (Hydrodamalis gigas), с использованием африканского и лесного слонов в качестве аутогруппы. Полученное мной дерево может подтвердить гипотезу о том, что ламантины и дюгони произошли от общего предка, но разделились в результате эволюции. Несмотря на общее происхождение, ламантины, обитающие в пресной и солоноватой воде, и дюгони, адаптированные к жизни в морской среде, демонстрируют различия в образе жизни и питании, что отражается в их генетической дивергенции. 
-
+# Conclusions:
+In this study, a phylogenetic analysis of the mitochondrial genomes of members of the order Sirenia—including three manatee species (Trichechus manatus, Trichechus senegalensis, Trichechus inunguis), the dugong (Dugong dugon), and the extinct Steller's sea cow (Hydrodamalis gigas)—was conducted, with the African and forest elephants as outgroups. The resulting tree supports the hypothesis that manatees and dugongs descended from a common ancestor but diverged through evolution. Despite their shared ancestry, manatees (adapted to freshwater and brackish environments) and dugongs (adapted to marine environments) exhibit differences in lifestyle and diet, reflected in their genetic divergence.
